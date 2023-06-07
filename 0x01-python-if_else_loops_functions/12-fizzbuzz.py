@@ -6,14 +6,13 @@ def fizzbuzz():
 
     for number in range(1, 100):
         if number % 3 == 0:
-            print("Fizz", end="")
+            print("Fizz ", end="")
 
         elif number % 5 == 0:
-            print("Buzz", end="")
+            print("Buzz ", end="")
 
         elif number % 3 and number % 5 == 0:
-            print("FizzBuzz", end="")
+            print("FizzBuzz ", end="")
 
         else:
             print("{}" .format(number), end="")
-
