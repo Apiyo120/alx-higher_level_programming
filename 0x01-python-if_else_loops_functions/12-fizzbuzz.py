@@ -4,7 +4,7 @@ def fizzbuzz():
 
     """Print a functio that print number from 1 - 100."""
 
-    for number in range(1, 100):
+    for number in range(1, 101):
         if number % 3 == 0:
             print("Fizz ", end="")
 
