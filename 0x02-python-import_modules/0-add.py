@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 
-#import the add function.
-import add_0 as plus
+if __name__ == "__main__":
 
-plus.add
+    from add_0 import add
 
-a = 1
-b = 2
-sum = a + b
+    a = 1
+    b = 2
 
-print("<a value> + <b value> = <add(a, b) value>", sum)
+    print("{} + {} = {}" .format(a, b, add(a, b)))
