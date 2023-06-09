@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 if __name__ =="__main__":
     """print the difference, sum, multiply and quotient of 10 and 5"""
 
