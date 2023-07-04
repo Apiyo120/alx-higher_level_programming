@@ -2,3 +2,5 @@
 class Rectangle:
     """Creates an empty class of rectangle"""
     pass
+rectangle = Rectangle()
+print(rectangle)
