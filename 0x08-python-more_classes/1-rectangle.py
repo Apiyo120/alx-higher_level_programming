@@ -47,7 +47,7 @@ class Rectangle:
         return self._height
 
     @height.setter
-    def heigt(self, value):
+    def height(self, value):
         """This is a setter method to set the height of the rectangle.
 
         Args:
@@ -63,3 +63,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self._height = value
+
+rectangle = Rectangle()
+print(rectangle.width)
+print(rectangle.height)
