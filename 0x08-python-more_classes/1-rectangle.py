@@ -10,7 +10,7 @@ class Rectangle:
         """Initialises the attirbuutes."""
         self.width = 0
         self.height = 0
-        self.height  = height
+        self.height = height
         self.width = width
 
     @property
@@ -40,6 +40,8 @@ class Rectangle:
             raise ValueError("height must be > 0")
         self._height = value
 
+
 my_rectangle = Rectangle()
 rectangle_attributes = vars(my_rectangle)
-print(rectangle_attributes)
+output = str(rectangle_attributes)
+print("Output: {}".format(output))
