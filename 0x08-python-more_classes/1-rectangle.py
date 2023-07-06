@@ -41,5 +41,4 @@ class Rectangle:
         self._height = value
 
 my_rectangle = Rectangle()
-print(my_rectangle.width)
-print(my_rectangle.height)
+print("Width: {}, Height: {}".format(my_rectangle.width, my_rectangle.height))
