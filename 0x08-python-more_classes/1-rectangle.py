@@ -8,8 +8,7 @@ class Rectangle:
     """An attempt to create a rectngle"""
     def __init__(self, width=0, height=0):
         """Initialises the attirbuutes."""
-        self.width = 0
-        self.height = 0
+
         self.height = height
         self.width = width
 
@@ -39,9 +38,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be > 0")
         self._height = value
-
-
-my_rectangle = Rectangle()
-rectangle_attributes = vars(my_rectangle)
-output = str(rectangle_attributes)
-print("Output: {}".format(output))
