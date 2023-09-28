@@ -2,6 +2,7 @@
 """  a function that finds a peak in the list of unsorted integers.
 """
 
+
 def find_peak(list_of_integers):
     """
     Args:
@@ -12,8 +13,8 @@ def find_peak(list_of_integers):
     mid_e = size
     mid = size // 2
 
- if size == 0:
-     return None
+    if size == 0:
+        return None
 
  while True:
      mid_e = mid_e // 2
